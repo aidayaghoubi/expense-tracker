@@ -119,10 +119,10 @@ const CircleSvg = () => (<svg xmlns="http://www.w3.org/2000/svg" width="100" hei
 const Circle2 = () => (
   <svg xmlns="http://www.w3.org/2000/svg" width="100" height="99" viewBox="0 0 100 99" fill="none">
     <path d="M23.4773 41.0909V30.1818H24.1761V41.0909H23.4773ZM25.8295 33.4545C25.7784 33.0227 25.571 32.6875 25.2074 32.4489C24.8438 32.2102 24.3977 32.0909 23.8693 32.0909C23.483 32.0909 23.1449 32.1534 22.8551 32.2784C22.5682 32.4034 22.3438 32.5753 22.1818 32.794C22.0227 33.0128 21.9432 33.2614 21.9432 33.5398C21.9432 33.7727 21.9986 33.973 22.1094 34.1406C22.223 34.3054 22.3679 34.4432 22.544 34.554C22.7202 34.6619 22.9048 34.7514 23.098 34.8224C23.2912 34.8906 23.4688 34.946 23.6307 34.9886L24.517 35.2273C24.7443 35.2869 24.9972 35.3693 25.2756 35.4744C25.5568 35.5795 25.8253 35.723 26.081 35.9048C26.3395 36.0838 26.5526 36.3139 26.7202 36.5952C26.8878 36.8764 26.9716 37.2216 26.9716 37.6307C26.9716 38.1023 26.848 38.5284 26.6009 38.9091C26.3565 39.2898 25.9986 39.5923 25.527 39.8168C25.0582 40.0412 24.4886 40.1534 23.8182 40.1534C23.1932 40.1534 22.652 40.0526 22.1946 39.8509C21.7401 39.6491 21.3821 39.3679 21.1207 39.0071C20.8622 38.6463 20.7159 38.2273 20.6818 37.75H21.7727C21.8011 38.0795 21.9119 38.3523 22.1051 38.5682C22.3011 38.7812 22.5483 38.9403 22.8466 39.0455C23.1477 39.1477 23.4716 39.1989 23.8182 39.1989C24.2216 39.1989 24.5838 39.1335 24.9048 39.0028C25.2259 38.8693 25.4801 38.6847 25.6676 38.4489C25.8551 38.2102 25.9489 37.9318 25.9489 37.6136C25.9489 37.3239 25.8679 37.0881 25.706 36.9062C25.544 36.7244 25.331 36.5767 25.0668 36.4631C24.8026 36.3494 24.517 36.25 24.2102 36.1648L23.1364 35.858C22.4545 35.6619 21.9148 35.3821 21.517 35.0185C21.1193 34.6548 20.9205 34.179 20.9205 33.5909C20.9205 33.1023 21.0526 32.6761 21.3168 32.3125C21.5838 31.946 21.9418 31.6619 22.3906 31.4602C22.8423 31.2557 23.3466 31.1534 23.9034 31.1534C24.4659 31.1534 24.9659 31.2543 25.4034 31.456C25.8409 31.6548 26.1875 31.9276 26.4432 32.2741C26.7017 32.6207 26.8381 33.0142 26.8523 33.4545H25.8295Z" fill="#B89F9F" />
-    <path d="M94 50C94 74.2528 74.1246 94 49.5 94C24.8753 94 5 74.2528 5 50C5 25.7472 24.8753 6 49.5 6C74.1246 6 94 25.7472 94 50Z" stroke="#E4E9F3" stroke-width="10" />
-    <path d="M94 50.5C94 74.2482 74.0244 94 50 94C25.9756 94 5 74.7482 5 51" stroke="#5A35CC" stroke-width="10" stroke-linecap="round" />
+    <path d="M94 50C94 74.2528 74.1246 94 49.5 94C24.8753 94 5 74.2528 5 50C5 25.7472 24.8753 6 49.5 6C74.1246 6 94 25.7472 94 50Z" stroke="#E4E9F3" strokeWidth="10" />
+    <path d="M94 50.5C94 74.2482 74.0244 94 50 94C25.9756 94 5 74.7482 5 51" stroke="#5A35CC" strokeWidth="10" strokeLinecap="round" />
     <circle cx="5" cy="50" r="2" fill="white" />
-    <path d="M94.2694 49.5034C93.7971 22.4456 72.9872 4.86804 45.0002 5.85663" stroke="#09C0D6" stroke-width="10" stroke-linecap="round" />
+    <path d="M94.2694 49.5034C93.7971 22.4456 72.9872 4.86804 45.0002 5.85663" stroke="#09C0D6" strokeWidth="10" strokeLinecap="round" />
     <circle cx="45" cy="6" r="2" fill="white" />
     <circle cx="94" cy="50" r="2" fill="white" />
   </svg>
@@ -131,11 +131,11 @@ const Circle2 = () => (
 const Circle3 = () => (
   <svg xmlns="http://www.w3.org/2000/svg" width="99" height="100" viewBox="0 0 99 100" fill="none">
     <path d="M23.4773 40.0909V29.1818H24.1761V40.0909H23.4773ZM25.8295 32.4545C25.7784 32.0227 25.571 31.6875 25.2074 31.4489C24.8438 31.2102 24.3977 31.0909 23.8693 31.0909C23.483 31.0909 23.1449 31.1534 22.8551 31.2784C22.5682 31.4034 22.3438 31.5753 22.1818 31.794C22.0227 32.0128 21.9432 32.2614 21.9432 32.5398C21.9432 32.7727 21.9986 32.973 22.1094 33.1406C22.223 33.3054 22.3679 33.4432 22.544 33.554C22.7202 33.6619 22.9048 33.7514 23.098 33.8224C23.2912 33.8906 23.4688 33.946 23.6307 33.9886L24.517 34.2273C24.7443 34.2869 24.9972 34.3693 25.2756 34.4744C25.5568 34.5795 25.8253 34.723 26.081 34.9048C26.3395 35.0838 26.5526 35.3139 26.7202 35.5952C26.8878 35.8764 26.9716 36.2216 26.9716 36.6307C26.9716 37.1023 26.848 37.5284 26.6009 37.9091C26.3565 38.2898 25.9986 38.5923 25.527 38.8168C25.0582 39.0412 24.4886 39.1534 23.8182 39.1534C23.1932 39.1534 22.652 39.0526 22.1946 38.8509C21.7401 38.6491 21.3821 38.3679 21.1207 38.0071C20.8622 37.6463 20.7159 37.2273 20.6818 36.75H21.7727C21.8011 37.0795 21.9119 37.3523 22.1051 37.5682C22.3011 37.7812 22.5483 37.9403 22.8466 38.0455C23.1477 38.1477 23.4716 38.1989 23.8182 38.1989C24.2216 38.1989 24.5838 38.1335 24.9048 38.0028C25.2259 37.8693 25.4801 37.6847 25.6676 37.4489C25.8551 37.2102 25.9489 36.9318 25.9489 36.6136C25.9489 36.3239 25.8679 36.0881 25.706 35.9062C25.544 35.7244 25.331 35.5767 25.0668 35.4631C24.8026 35.3494 24.517 35.25 24.2102 35.1648L23.1364 34.858C22.4545 34.6619 21.9148 34.3821 21.517 34.0185C21.1193 33.6548 20.9205 33.179 20.9205 32.5909C20.9205 32.1023 21.0526 31.6761 21.3168 31.3125C21.5838 30.946 21.9418 30.6619 22.3906 30.4602C22.8423 30.2557 23.3466 30.1534 23.9034 30.1534C24.4659 30.1534 24.9659 30.2543 25.4034 30.456C25.8409 30.6548 26.1875 30.9276 26.4432 31.2741C26.7017 31.6207 26.8381 32.0142 26.8523 32.4545H25.8295Z" fill="#B89F9F" />
-    <path d="M94 49C94 73.2528 74.1246 93 49.5 93C24.8753 93 5 73.2528 5 49C5 24.7472 24.8753 5 49.5 5C74.1246 5 94 24.7472 94 49Z" stroke="#E4E9F3" stroke-width="10" />
-    <path d="M47.4838 94.2012C23.7444 93.5541 4.5443 73.0477 5.19892 49.0322" stroke="#5A35CC" stroke-width="10" stroke-linecap="round" />
+    <path d="M94 49C94 73.2528 74.1246 93 49.5 93C24.8753 93 5 73.2528 5 49C5 24.7472 24.8753 5 49.5 5C74.1246 5 94 24.7472 94 49Z" stroke="#E4E9F3" strokeWidth="10" />
+    <path d="M47.4838 94.2012C23.7444 93.5541 4.5443 73.0477 5.19892 49.0322" stroke="#5A35CC" strokeWidth="10" strokeLinecap="round" />
     <path d="M7 49C7 50.1046 6.10457 51 5 51C3.89543 51 3 50.1046 3 49C3 47.8954 3.89543 47 5 47C6.10457 47 7 47.8954 7 49Z" fill="white" />
     <path d="M49 93.5C49 94.6046 48.1046 95.5 47 95.5C45.8954 95.5 45 94.6046 45 93.5C45 92.3954 45.8954 91.5 47 91.5C48.1046 91.5 49 92.3954 49 93.5Z" fill="white" />
-    <path d="M48.4727 94.4977C75.5334 94.7628 93.6714 74.4396 93.4458 46.436" stroke="#09C0D6" stroke-width="10" stroke-linecap="round" />
+    <path d="M48.4727 94.4977C75.5334 94.7628 93.6714 74.4396 93.4458 46.436" stroke="#09C0D6" strokeWidth="10" strokeLinecap="round" />
     <circle cx="94" cy="49" r="2" fill="white" />
     <circle cx="48" cy="95" r="2" fill="white" />
   </svg>
@@ -397,9 +397,9 @@ const Wrapper = styledComponents.div`
        font-size: 17px;
       height: 56px;
       background: #F5F8FE;
+      border:2px solid #F5F8FE; 
       box-shadow: 1px 1px 4px rgb(0 0 0 / 12%);
       border-radius: 6px;
-      border: none;
       margin: 11px 0;
       padding-left: 15px;
       
@@ -481,9 +481,9 @@ const Testing = () => {
   // };
 
   const [action, setAction] = useState(true);
-  const [items, setItems] = useState({});
+  const [items, setItems] = useState({amount:"" , title:""});
   const [state, setState] = useState(store.getState());
-  const [error, setError] = useState(false);
+  const [error, setError] = useState("");
   const [startTurning, setStartTurning] = useState(false)
 
 
@@ -521,7 +521,6 @@ const Testing = () => {
   };
 
   useEffect(() => {
-
     const timer = setTimeout(() => {
       if (items.amount.length && items.title.length) {
 
@@ -529,10 +528,12 @@ const Testing = () => {
           store.dispatch(actions.income(items));
           setItems({ amount: "", title: "" });
           setStartTurning(false)
+          setError("")
         } else {
           store.dispatch(actions.expense(items));
           setItems({ amount: "", title: "" });
           setStartTurning(false)
+          setError("")
         }
 
       }
@@ -541,8 +542,16 @@ const Testing = () => {
     return () => clearTimeout(timer)
   }, [startTurning])
 
+  useEffect(()=>{
+    const timer2 = setTimeout(()=>{
+      setError("")
+    } , 700)
+
+    return ()=> clearTimeout(timer2)
+  } , [error])
+
   const onSubmit = () => {
-    if (items.amount.length && items.title.length) {
+    if (items?.amount?.length && items?.title?.length) {
       setStartTurning(true)
       // if (action === true) {
       //   store.dispatch(actions.income(items));
@@ -556,20 +565,20 @@ const Testing = () => {
 
     }
     else {
-      if (!items.amount) {
-        setError("amount")
-      } else if (!items.title) {
+      if (!items.amount && !items.title) {
+        setError("title amount")
+      } 
+      else if (!items.title && items.title) {
         setError("title")
+      }
+      else {
+        setError("amount")
       }
     }
 
   };
+console.log(error.includes("hi") , "deded");
 
-  const convertToDate = (data) => {
-    const today = new Date(data);
-
-    return "45454";
-  };
   const className = `balance ${startTurning ? "turning" : ""}`
 
   return (
@@ -634,16 +643,24 @@ const Testing = () => {
             </defs>
           </svg>
         </span>
-        add new expense</div>
+        Add New Expense</div>
       <div className="controls">
         <div className="inputs">
           <input
+            style={{
+              transition: "0.5s",
+              border: error?.includes("title") ? "2px solid red" : "2px solid #F5F8FE"
+            }}
             value={items?.title}
-            placeholder="add title"
+            placeholder="Add Title"
             onChange={(e) => onTitleHndler({ e, name: "title" })}
           />
           <input
-            placeholder="add amount"
+           style={{
+            transition: "0.5s",
+            border: error?.includes("amount") ? "2px solid red" : "2px solid #F5F8FE"
+          }}
+            placeholder="Add Amount"
             type="number"
             value={items?.amount}
             onChange={(e) => onTitleHndler({ e, name: "amount" })}
@@ -655,12 +672,12 @@ const Testing = () => {
               style={{
                 backgroundColor: action === false ? "#C1D2D5" : "#09C0D6"
               }}
-            >income</div>
+            >Income</div>
             <div onClick={() => setToggleHandler(false)}
               style={{
                 backgroundColor: action === false ? "#5A35CC" : "#C1D2D5"
               }}
-            >expense</div>
+            >Expense</div>
           </div>
           <div className="btn">
             <button onClick={onSubmit}>Submit</button>
@@ -686,7 +703,7 @@ const Testing = () => {
                 </defs>
               </svg>
             </span>
-            history :</p>
+            History :</p>
           <div>
             {state?.history?.map((el, i) => {
               return (<div key={i}
